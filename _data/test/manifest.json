@@ -18,7 +18,9 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "https://drive.google.com/uc?id=1_1qJncKD-myZqY0WiLliyzQVX0Fh9Crf&export=download",
+                  "id": "https://app.box.com/shared/static/xj6ii8h5i20h43jf7q2sw0lv31rc2rjk.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
                     "duration": 781.0
                 },
                 "target": "https://zachmorrison.github.io/test/test/canvas-1/canvas"
