@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://zachmorrison.github.io/test/test/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test" ] },
+    "items": [
+      {
+        "id": "https://zachmorrison.github.io/test/test/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 900.0,
+        "items": [
+          {
+            "id": "https://zachmorrison.github.io/test/test/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://zachmorrison.github.io/test/test/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://drive.google.com/file/d/1_1qJncKD-myZqY0WiLliyzQVX0Fh9Crf/view?usp=share_link",
+                    "duration": 900.0
+                },
+                "target": "https://zachmorrison.github.io/test/test/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
