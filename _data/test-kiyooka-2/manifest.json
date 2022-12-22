@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://zachmorrison.github.io/test/test-kiyooka-2/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test Kiyooka 2" ] },
+    "items": [
+      {
+        "id": "https://zachmorrison.github.io/test/test-kiyooka-2/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 781.0,
+        "items": [
+          {
+            "id": "https://zachmorrison.github.io/test/test-kiyooka-2/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://zachmorrison.github.io/test/test-kiyooka-2/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.dropbox.com/s/kihyh3dzmiqmiqs/Kiyooka%20Clip.mp3?dl=0",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 781.0
+                },
+                "target": "https://zachmorrison.github.io/test/test-kiyooka-2/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
