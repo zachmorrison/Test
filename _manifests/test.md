@@ -1,6 +1,6 @@
 ---
 layout: manifest
-title: Test
+title: Test Kiyooka
 manifest_name: test
 
 ---
